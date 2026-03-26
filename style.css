@@ -10,10 +10,16 @@ html {
 
 body {
   font-family: Georgia, sans-serif;
-  font-size: 16px;
-  width: 1200px;
-  margin: 20px auto;
+  font-size: 18.6px;
+  line-height: 1.5;
+  margin: 0;
   background-color: #bfd7ed;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .title {
@@ -24,7 +30,7 @@ body {
 .recipe-pages {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
   margin-top: 100px;
 
 }
@@ -32,5 +38,50 @@ body {
 .recipe-page-link {
   font-size: 18px;
   list-style: none;
-  /* text-decoration: none; */
+}
+
+#potato-soup-title {
+  color: #f00;
+}
+
+#hash-brown-potato-soup-title {
+  color: #a44002fb;
+}
+
+#heart-of-palm-title {
+  color: #008000;
+}
+
+#heart-of-palm-title,
+#potato-soup-title,
+#hash-brown-potato-soup-title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.recipe-photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipe-photo figcaption {
+  font-size: 12px;
+}
+
+.subtitle-bg {
+  font-size: 25px;
+}
+
+.subtitle-sm {
+  font-size: 20px;
+}
+
+footer {
+  text-align: right;
+  margin-top: 100px;
+}
+
+.landing-page-nav {
+  color: #00f;
 }
